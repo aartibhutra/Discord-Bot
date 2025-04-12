@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aartibhutra/Discord-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aartibhutra/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/aartibhutra/Discord-Bot#readme",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  }
+}

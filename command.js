@@ -3,8 +3,8 @@ const config = require("./config");
 
 const commands = [
     {
-      name: 'ping',
-      description: 'Replies with Pong!',
+      name: 'create',
+      description: 'creates a new short URL',
     },
   ];
 

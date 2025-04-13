@@ -11,9 +11,21 @@ const client = new Client({ intents: [
 client.on('messageCreate' , (message) => {
     // console.log(message.content); // log the message content to the console
     if(message.author.bot) return; // ignore messages from bots
+    if(message.content.startsWith('create')){
+        const url = message.content.split("create")[1]; // get the url from the message
+        return message.reply({
+            content : "Generating a short ID for you!" + url,
+        });
+    }
     message.reply({
         content : "Hi From the bot!",
     });
+});
+
+// its for a command you are making for the bot
+client.on('interactionCreate' , interaction => {
+    console.log(interaction);
+    interaction.reply("Pong!!");
 });
 
 // login to the discord api using the bot token

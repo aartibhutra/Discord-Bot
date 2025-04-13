@@ -1,3 +1,7 @@
 1. install the package.json(npm init)
 2. install discord.js
 3.https://discord.js.org/docs/packages/discord.js/14.18.0
+4. create a bot on discord developer portal
+5. invite the bot to your server
+6. use the bot token in your code
+7.https://discordjs.guide/popular-topics/intents.html#privileged-intents
